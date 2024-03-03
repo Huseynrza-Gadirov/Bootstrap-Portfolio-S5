@@ -78,3 +78,55 @@
   .basliq{
     color: red;
   }
+
+/* * header section start */
+nav a {
+  color: #222 !important;
+}
+/* * header section end */
+
+/* * introduction start */
+.introduction .intro-left-side h1 {
+  font-size: 70px;
+}
+
+.introduction .intro-left-side h1 span {
+  color: #ff8a56;
+
+.introduction .intro-left-side p {
+  color: #666;
+}
+
+.book-a-call {
+  background: #222;
+  color: #fff;
+  width: 151px;
+  height: 58px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* * introduction end */
+
+
+@media(min-width: 320px) {
+  .introduction .intro-left-side h1 {
+    font-size: 36px;
+  }
+}
+
+
+@media(min-width: 768px) {
+  .introduction .intro-left-side h1 {
+    font-size: 40px;
+  }
+}
+
+@media(min-width: 992px) {
+  .introduction .intro-left-side h1 {
+    font-size: 70px;
+  }
+}
