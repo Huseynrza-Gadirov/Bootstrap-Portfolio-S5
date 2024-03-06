@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+:root {
+  --services-color:#FF5E69;
+}
+
 /* * Font classlari start */
 .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -92,6 +96,7 @@ nav a {
 
 .introduction .intro-left-side h1 span {
   color: #ff8a56;
+}
 
 .introduction .intro-left-side p {
   color: #666;
@@ -102,14 +107,40 @@ nav a {
   color: #fff;
   width: 151px;
   height: 58px;
-
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-
 }
 
 
-/* * introduction end */
+.partnyorlar .shirketler .shirket {
+width: 300px
+}
+
+/** introduction end */
+
+/** Services section start */
+
+
+.services h6 {
+  color:var(--services-color)
+}
+
+.service-img {
+  width: 70px;
+}
+
+.services ul {
+  list-style-type: square;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.services .card-body {
+  padding-left: 0 !important;
+}
+
+/** Services section end */
 
 
 @media(min-width: 320px) {
